@@ -12,16 +12,6 @@ Feature: TEK Retail API Address Service
     * path "/address"
     * request
       """
-      {
-      "country": "United States",
-      "fullName": "John Dooooo",
-      "phoneNumber": "9047931984",
-      "street": "2714 Yule Street, Arvada CO",
-      "apartment": "H.no 15",
-      "city": "Jacksonville",
-      "state": "Florida",
-      "zipCode": "32216"
-      }
       """
     * method post
     * print response
